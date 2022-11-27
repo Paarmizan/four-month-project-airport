@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Обратная информация</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="shortcut icon" href="img/logo.ico" type="image/x-icon">
+</head>
+
+<body>
+	<header class="header">
+		<div class="header__container"> 
+			<nav class="menu">
+				<a href="index.html" class="menu__logo "><img src="img/logo.svg" alt="лого" class="menu__picture-logo"></a>
+	
+				<ul class="menu__list-links list-links">
+					<li class="list-links__item"><a href="timetable.html" class="menu__link link">Расписание</a></li>
+					<li class="list-links__item"><a href="howtoget.html" class="menu__link link">Как добраться</a></li>
+					<li class="list-links__item"><a href="addinfo.html" class="menu__link link">Дополнительная информация</a></li>
+					<li class="list-links__item"><a href="contactus.html" class="menu__link link">Обратная информация</a></li>
+				</ul>
+	
+				<div class="menu__block-button">
+					<a href="buytickets.html" class="menu__button button"><span>Заказать билеты</span></a>
+				</div>
+				
+			</nav>
+		</div>
+	</header>
+	
+	<main>
+	
+		<form action="#" class="form" method="get">
+	
+			<div class="form__container">
+				<h2 class="form__title">Оставьте отзыв о вашем перелете!</h2>
+	
+					<div class="form__block">
+					
+					<div class="form__row">
+						<label for="surname">Фамилия: </label>
+						<input type="text" id="surname">
+					</div>
+					<div class="form__row">
+						<label for="name">Имя: </label>
+						<input type="text" id="name">
+					</div>
+					<div class="form__row">
+						<label for="ticket">Укажите код вашего билета: </label>
+						<input type="text" id="ticket">
+					</div>
+					<div class="form__row">
+						<label for="rate">Оцените ваш перелет: </label>
+						0
+						<input type="range" id="ticket" min="0" max="10" step="1">
+						10
+					</div>
+					<div class="form__row">
+						<label for="comment">Ваш комментарий: </label>
+						<textarea id="comment" rows="2" cols="50"></textarea>
+					</div>
+	
+				</div>
+	
+				
+				<button type="submit" class="button form__button-submit">Отправить</button>
+	
+			</div>
+			
+	
+		</form>
+	
+	</main>
+	
+	<footer class="footer">
+		<div class="footer__container">
+			<div class="footer__copyright">&#169; 2022-22 "Бобров Эйрлайнс"</div>
+			<div class="footer__contacts">
+				<ul class="footer__list">
+					<li class="footer_item-list"><a href="#">соглашение</a></li>
+					<li class="footer_item-list"><a href="#">конфиндециальность</a></li>
+					<li class="footer_item-list"><a href="#">контакты</a></li>
+				</ul>
+			</div>
+			
+		</div>
+	
+	</footer>
+</body>
+
+<script src="js/script.js"></script>
+
+</html>

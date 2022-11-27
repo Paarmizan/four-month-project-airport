@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Расписание</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="shortcut icon" href="img/logo.ico" type="image/x-icon">
+</head>
+
+<body>
+	<header class="header">
+		<div class="header__container"> 
+			<nav class="menu">
+				<a href="index.html" class="menu__logo "><img src="img/logo.svg" alt="лого" class="menu__picture-logo"></a>
+	
+				<ul class="menu__list-links list-links">
+					<li class="list-links__item"><a href="timetable.html" class="menu__link link">Расписание</a></li>
+					<li class="list-links__item"><a href="howtoget.html" class="menu__link link">Как добраться</a></li>
+					<li class="list-links__item"><a href="addinfo.html" class="menu__link link">Дополнительная информация</a></li>
+					<li class="list-links__item"><a href="contactus.html" class="menu__link link">Обратная информация</a></li>
+				</ul>
+	
+				<div class="menu__block-button">
+					<a href="buytickets.html" class="menu__button button"><span>Заказать билеты</span></a>
+				</div>
+				
+			</nav>
+		</div>
+	</header>
+	
+	<main>
+		<div class="body__container">
+	
+			<div class="date">
+				<p class="date__text">Сегодня <span class="date__value-time">dd</span></p>
+			</div>
+			
+	
+			<div class="clock">
+				<div class="clock__circle circle">
+					<div class="circle__center"></div>
+					<div class="circle__arrow-hour"></div>
+					<div class="circle__arrow-minute"></div>
+					<div class="circle__arrow-second"></div>
+					<div class="circle__point" style="top: 20px; left: 194px;"></div>
+					<div class="circle__point" style="top: 45px; left: 274px; transform: rotate(30deg);"></div>
+					<div class="circle__point" style="top: 106px; left: 330px; transform: rotate(60deg);"></div>
+					<div class="circle__point" style="top: 185px; left: 350px; transform: rotate(90deg);"></div>
+					<div class="circle__point" style="top: 262px; left: 330px; transform: rotate(120deg);"></div>
+					<div class="circle__point" style="top: 330px; left: 274px; transform: rotate(150deg);"></div>
+					<div class="circle__point" style="top: 350px; left: 194px;"></div>
+					<div class="circle__point" style="top: 330px; left: 110px; transform: rotate(210deg);"></div>
+					<div class="circle__point" style="top: 268px; left: 50px; transform: rotate(240deg);"></div>
+					<div class="circle__point" style="top: 185px; left: 30px; transform: rotate(270deg);"></div>
+					<div class="circle__point" style="top: 106px; left: 50px; transform: rotate(300deg);"></div>
+					<div class="circle__point" style="top: 40px; left: 108px; transform: rotate(330deg);"></div>
+					
+				</div>
+			</div>
+			
+			<table class="timetable">
+				<tr class="timetable__row">
+					<th class="timetable__header">Время</th>
+					<th class="timetable__header">Город прилета</th>
+					<th class="timetable__header">Самолет</th>
+					<th class="timetable__header">Терминал</th>
+				</tr>
+				<tr class="timetable__row">
+					<td class="timetable__data">05:05</td>
+					<td class="timetable__data">Сочи</td>
+					<td class="timetable__data">SU</td>
+					<td class="timetable__data">B 106</td>
+				</tr>
+				<tr class="timetable__row">
+					<td class="timetable__data">06:00</td>
+					<td class="timetable__data">Шанхай</td>
+					<td class="timetable__data">SU</td>
+					<td class="timetable__data">C 142</td>
+				</tr>
+				<tr class="timetable__row">
+					<td class="timetable__data">06:30</td>
+					<td class="timetable__data">Минск</td>
+					<td class="timetable__data">B2</td>
+					<td class="timetable__data">C 144</td>
+				</tr>
+				<tr class="timetable__row">
+					<td class="timetable__data">06:45</td>
+					<td class="timetable__data">Н.Новгород</td>
+					<td class="timetable__data">FV SU</td>
+					<td class="timetable__data">B 102</td>
+				</tr>
+				<tr class="timetable__row">
+					<td class="timetable__data">07:10</td>
+					<td class="timetable__data">Бангкок</td>
+					<td class="timetable__data">SU</td>
+					<td class="timetable__data">C 126</td>
+				</tr>
+				<tr class="timetable__row">
+					<td class="timetable__data">08:15</td>
+					<td class="timetable__data">Санкт-Петербург</td>
+					<td class="timetable__data">SU</td>
+					<td class="timetable__data">B 101</td>
+				</tr>
+				<tr class="timetable__row">
+					<td class="timetable__data">09:00</td>
+					<td class="timetable__data">Иркутск</td>
+					<td class="timetable__data">DP</td>
+					<td class="timetable__data">B 103</td>
+				</tr>
+				<tr class="timetable__row">
+					<td class="timetable__data">11:50</td>
+					<td class="timetable__data">Пермь</td>
+					<td class="timetable__data">SU</td>
+					<td class="timetable__data">B 122</td>
+				</tr>
+				<tr class="timetable__row">
+					<td class="timetable__data">12:00</td>
+					<td class="timetable__data">Калининград</td>
+					<td class="timetable__data">SU</td>
+					<td class="timetable__data">B 105</td>
+				</tr>
+				<tr class="timetable__row">
+					<td class="timetable__data">13:20</td>
+					<td class="timetable__data">Барнаул</td>
+					<td class="timetable__data">DP</td>
+					<td class="timetable__data">B 104</td>
+				</tr>
+				<tr class="timetable__row">
+					<td class="timetable__data">14:00</td>
+					<td class="timetable__data">Белград</td>
+					<td class="timetable__data">JU</td>
+					<td class="timetable__data">C 140</td>
+				</tr>
+				<tr class="timetable__row">
+					<td class="timetable__data">15:15</td>
+					<td class="timetable__data">Красноярск</td>
+					<td class="timetable__data">SU</td>
+					<td class="timetable__data">B 121</td>
+				</tr>
+				<tr class="timetable__row">
+					<td class="timetable__data">16:00</td>
+					<td class="timetable__data">Архангельск</td>
+					<td class="timetable__data">SU</td>
+					<td class="timetable__data">B 101</td>
+				</tr>
+				<tr class="timetable__row">
+					<td class="timetable__data">16:05</td>
+					<td class="timetable__data">Пхукет</td>
+					<td class="timetable__data">SU</td>
+					<td class="timetable__data">C 134</td>
+				</tr>
+				<tr class="timetable__row">
+					<td class="timetable__data">16:40</td>
+					<td class="timetable__data">Новосибирск</td>
+					<td class="timetable__data">SU</td>
+					<td class="timetable__data">B 120</td>
+				</tr>
+				<tr class="timetable__row">
+					<td class="timetable__data">17:00</td>
+					<td class="timetable__data">Баку</td>
+					<td class="timetable__data">SU</td>
+					<td class="timetable__data">C 125</td>
+				</tr>
+				<tr class="timetable__row">
+					<td class="timetable__data">17:20</td>
+					<td class="timetable__data">Ульяновск</td>
+					<td class="timetable__data">SU</td>
+					<td class="timetable__data">B 119</td>
+				</tr>
+				<tr class="timetable__row">
+					<td class="timetable__data">18:05</td>
+					<td class="timetable__data">Кемерово</td>
+					<td class="timetable__data">SU</td>
+					<td class="timetable__data">B 108</td>
+				</tr>
+				<tr class="timetable__row">
+					<td class="timetable__data">19:00</td>
+					<td class="timetable__data">Иркутск</td>
+					<td class="timetable__data">SU</td>
+					<td class="timetable__data">B 101</td>
+				</tr>
+				<tr class="timetable__row">
+					<td class="timetable__data">20:45</td>
+					<td class="timetable__data">Казань</td>
+					<td class="timetable__data">SU</td>
+					<td class="timetable__data">B 118</td>
+				</tr>
+				<tr class="timetable__row">
+					<td class="timetable__data">22:00</td>
+					<td class="timetable__data">Стамбул</td>
+					<td class="timetable__data">SU</td>
+					<td class="timetable__data">B 119</td>
+				</tr>
+			</table>
+		</div>
+	</main>
+	
+	<footer class="footer">
+		<div class="footer__container">
+			<div class="footer__copyright">&#169; 2022-22 "Бобров Эйрлайнс"</div>
+			<div class="footer__contacts">
+				<ul class="footer__list">
+					<li class="footer_item-list"><a href="#">соглашение</a></li>
+					<li class="footer_item-list"><a href="#">конфиндециальность</a></li>
+					<li class="footer_item-list"><a href="#">контакты</a></li>
+				</ul>
+			</div>
+			
+		</div>
+	
+	</footer>
+</body>
+
+<script src="js/script.js"></script>
+
+</html>
